@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="timer" id="timer">Time Left: 30:00</div>
+      <div id="questionTracker"></div>
+    </aside>
+
+    <main class="dashboard-container">
+      <h1>Admin Dashboard</h1>
+      <div class="buttons">
+        <button type="button" id="addQuestionBtn">Add New Question</button>
+        <button type="button" id="updateQuestionsBtn">Save Changes</button>
+      </div>
+
+      <form id="adminForm">
+        <!-- Admin will edit the questions here -->
+      </form>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

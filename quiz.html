@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="timer" id="timer">Time Left: 30:00</div>
+      <div id="questionTracker"></div>
+    </aside>
+
+    <main class="quiz-container">
+      <form id="quizForm">
+        <!-- Questions will be injected by JavaScript -->
+        <div class="buttons">
+          <button type="button" id="prevBtn" disabled>Prev</button>
+          <button type="button" id="nextBtn">Next</button>
+          <button type="submit" id="submitBtn" disabled>Submit</button>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
