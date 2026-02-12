@@ -68,7 +68,7 @@ users.push({
 localStorage.setItem("users", JSON.stringify(users));
 
 
-    window.location.href = "Login.html";
+    window.location.href = "login.html";
 });
 
 
